@@ -23,28 +23,28 @@ const Home = () => {
       title: 'Cassava Chips, most selling product',
       description:
         'Cassava chips are a crunchy, delicious snack made from fresh, handpicked cassava roots. Carefully sliced and fried to perfection, these chips offer a unique, satisfying flavor. Rich in natural fibers and gluten-free, they are a healthier alternative to traditional potato chips.',
-      image: '/images/products/chips.png',
+      image: '/Images/products/chips.png',
       figcaption: 'Cassava Chips, most selling product',
     },
     {
       title: 'Garlic Murukku, a new product',
       description:
         'Garlic Mini Murukku is a crispy, bite-sized traditional snack infused with the bold flavor of garlic. Made from rice flour and aromatic spices, each murukku is hand-twisted and fried to golden perfection.',
-      image: '/images/products/savory.png',
+      image: '/Images/products/savory.png',
       figcaption: 'Garlic Murukku, a new product',
     },
     {
       title: 'Cassava Finger Chips, popular product',
       description:
         'Cassava Finger Chips are a tasty and crispy snack made from fresh cassava roots, cut into long strips and perfectly fried. These crunchy treats are a great gluten-free alternative to regular fries.',
-      image: '/images/products/thinchips.png',
+      image: '/Images/products/thinchips.png',
       figcaption: 'Cassava Finger Chips, popular product',
     },
     {
       title: 'Orange Candy, a new product',
       description:
         'Orange Candy offers a burst of tangy citrus flavor in every bite, delivering the refreshing taste of ripe, juicy oranges. These sweet and tangy treats are perfect for satisfying your candy cravings while giving a zesty twist to your day.',
-      image: '/images/products/orangecandy.png',
+      image: '/Images/products/orangecandy.png',
       figcaption: 'Orange Candy, a new product',
     },
   ];
