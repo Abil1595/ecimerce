@@ -37,7 +37,7 @@ function AboutUs() {
                     <div className="card">
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                                <img src="images/products/about.jpg" className="card-img" alt="About Us" />
+                                <img src="Images/products/about.jpg" className="card-img" alt="About Us" />
                             </div>
                             <div className="col-md-8 d-flex align-items-center">
                                 <div className="card-body">
@@ -93,13 +93,13 @@ function AboutUs() {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <img src="images/products/mission.jpg" className="card-img" alt="Our Mission" />
+                    <img src="Images/products/mission.jpg" className="card-img" alt="Our Mission" />
                 </div>
             </div>
 
             {/* History Section */}
             <div className="history mt-3">
-                <img src="images/products/New.png" width="100%" alt="Our History" />
+                <img src="Images/products/New.png" width="100%" alt="Our History" />
             </div>
 
             {/* Our Customers Card */}
@@ -134,7 +134,7 @@ function AboutUs() {
             <div className="row commitment mt-3">
                 <div className="col-md-12">
                     <div className="card">
-                        <img src="images/products/commitment.jpg" className="commitment-img" alt="Our Commitment" />
+                        <img src="Images/products/commitment.jpg" className="commitment-img" alt="Our Commitment" />
                         <div className="container mt-3">
                             <h5 className="card-title">Our Commitment to Quality</h5>
                             <p className="card-text">
@@ -152,7 +152,7 @@ function AboutUs() {
                                 <div className="col-md-3">
                                     <div className="quality-control">
                                         <center>
-                                            <img src="images/products/store.png" className="store" alt="Variety Icon" />
+                                            <img src="Images/products/store.png" className="store" alt="Variety Icon" />
                                             <h5 className="innerTitle">Variety</h5>
                                         </center>
                                         <p className="innerText">We offer a wide range of grocery items, from everyday essentials to exotic ingredients.</p>
@@ -161,7 +161,7 @@ function AboutUs() {
                                 <div className="col-md-3">
                                     <div className="quality-control">
                                         <center>
-                                            <img src="images/products/food-safety.png" className="store" alt="Food Safety Icon" />
+                                            <img src="Images/products/food-safety.png" className="store" alt="Food Safety Icon" />
                                             <h5 className="innerTitle">Food Safety</h5>
                                         </center>
                                         <p className="innerText">We adhere to the highest standards of food safety, hygiene, and quality practices.</p>
@@ -170,7 +170,7 @@ function AboutUs() {
                                 <div className="col-md-3">
                                     <div className="quality-control">
                                         <center>
-                                            <img src="images/products/customer-review.png" className="store" alt="Customer Satisfaction Icon" />
+                                            <img src="Images/products/customer-review.png" className="store" alt="Customer Satisfaction Icon" />
                                             <h5 className="innerTitle">Customer Satisfaction</h5>
                                         </center>
                                         <p className="innerText">We are committed to providing our customers with the best possible experience.</p>

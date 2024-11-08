@@ -9,13 +9,13 @@ const TrendingSlider = () => {
   const swiperRef = useRef(null); // Reference to Swiper instance
 
   const slides = [
-    { id: 1, name: "Potato Chips", price: "$20", rating: 4.5, imgSrc: "/images/products/2.jpg" },
-    { id: 2, name: "Ribbon Murukku", price: "$20", rating: 4.5, imgSrc: "/images/products/4.jpg" },
-    { id: 3, name: "Kai Murukku", price: "$20", rating: 4.5, imgSrc: "/images/products/1.jpg" },
-    { id: 4, name: "Garlic Murukku", price: "$20", rating: 4.5, imgSrc: "/images/products/7.jpg" },
-    { id: 5, name: "Kai Murukku", price: "$20", rating: 4.5, imgSrc: "/images/products/3.jpg" },
-    { id: 6, name: "Spicy Chips", price: "$25", rating: 4.8, imgSrc: "/images/products/5.jpg" },
-    { id: 7, name: "Cheese Balls", price: "$15", rating: 4.7, imgSrc: "/images/products/6.jpg" }
+    { id: 1, name: "Potato Chips", price: "$20", rating: 4.5, imgSrc: "/Images/products/2.jpg" },
+    { id: 2, name: "Ribbon Murukku", price: "$20", rating: 4.5, imgSrc: "/Images/products/4.jpg" },
+    { id: 3, name: "Kai Murukku", price: "$20", rating: 4.5, imgSrc: "/Images/products/1.jpg" },
+    { id: 4, name: "Garlic Murukku", price: "$20", rating: 4.5, imgSrc: "/Images/products/7.jpg" },
+    { id: 5, name: "Kai Murukku", price: "$20", rating: 4.5, imgSrc: "/Images/products/3.jpg" },
+    { id: 6, name: "Spicy Chips", price: "$25", rating: 4.8, imgSrc: "/Images/products/5.jpg" },
+    { id: 7, name: "Cheese Balls", price: "$15", rating: 4.7, imgSrc: "/Images/products/6.jpg" }
   ];
 
   useEffect(() => {

@@ -23,28 +23,28 @@ const Home = () => {
       title: 'Cassava Chips, most selling product',
       description:
         'Cassava chips are a crunchy, delicious snack made from fresh, handpicked cassava roots. Carefully sliced and fried to perfection, these chips offer a unique, satisfying flavor. Rich in natural fibers and gluten-free, they are a healthier alternative to traditional potato chips.',
-      image: '/images/products/chips.png',
+      image: '/Images/products/chips.png',
       figcaption: 'Cassava Chips, most selling product',
     },
     {
       title: 'Garlic Murukku, a new product',
       description:
         'Garlic Mini Murukku is a crispy, bite-sized traditional snack infused with the bold flavor of garlic. Made from rice flour and aromatic spices, each murukku is hand-twisted and fried to golden perfection.',
-      image: '/images/products/savory.png',
+      image: '/Images/products/savory.png',
       figcaption: 'Garlic Murukku, a new product',
     },
     {
       title: 'Cassava Finger Chips, popular product',
       description:
         'Cassava Finger Chips are a tasty and crispy snack made from fresh cassava roots, cut into long strips and perfectly fried. These crunchy treats are a great gluten-free alternative to regular fries.',
-      image: '/images/products/thinchips.png',
+      image: '/Images/products/thinchips.png',
       figcaption: 'Cassava Finger Chips, popular product',
     },
     {
       title: 'Orange Candy, a new product',
       description:
         'Orange Candy offers a burst of tangy citrus flavor in every bite, delivering the refreshing taste of ripe, juicy oranges. These sweet and tangy treats are perfect for satisfying your candy cravings while giving a zesty twist to your day.',
-      image: '/images/products/orangecandy.png',
+      image: '/Images/products/orangecandy.png',
       figcaption: 'Orange Candy, a new product',
     },
   ];
@@ -101,7 +101,7 @@ const Home = () => {
         <div className="sweet">
           <div className="sweet1">
            <Link to="/search?category=SWEETS">
-              <img src="/images/products/sweet-category.png" alt="sweet-cat" className="sweet-img" />
+              <img src="/Images/products/sweet-category.png" alt="sweet-cat" className="sweet-img" />
               </Link>
           </div>
           <div className="sweet-caption">Sweet</div>
@@ -109,7 +109,7 @@ const Home = () => {
         <div className="snack">
           <div className="snack1">
           <Link to="/search?category=SNACKS">
-              <img src="/images/products/snack-category.png" alt="snacks-cat" className="snack-img" />
+              <img src="/Images/products/snack-category.png" alt="snacks-cat" className="snack-img" />
            </Link>
           </div>
           <div className="snack-caption">Snacks</div>
@@ -117,7 +117,7 @@ const Home = () => {
         <div className="candy">
           <div className="candy1">
           <Link to="/search?category=CANDIES">
-              <img src="/images/products/candy-category.png" alt="candy-cat" className="candy-img" />
+              <img src="/Images/products/candy-category.png" alt="candy-cat" className="candy-img" />
             </Link>
           </div>
           <div className="candy-caption">Candies</div>
@@ -125,7 +125,7 @@ const Home = () => {
         <div className="grocery">
           <div className="grocery1">
           <Link to="/search?category=GROCERIES">
-              <img src="/images/products/grocery-category.png" alt="groceries-cat" className="grocery-img" />
+              <img src="/Images/products/grocery-category.png" alt="groceries-cat" className="grocery-img" />
             </Link>
           </div>
           <div className="grocery-caption">Groceries</div>
@@ -136,7 +136,7 @@ const Home = () => {
         <div className="rice">
           <div className="rice1">
           <Link to="/search?category=RICE">
-              <img src="/images/products/rice-category.png" alt="rice-cat" className="rice-img" />
+              <img src="/Images/products/rice-category.png" alt="rice-cat" className="rice-img" />
             </Link>
           </div>
           <div className="rice-caption">Rice</div>
@@ -144,7 +144,7 @@ const Home = () => {
         <div className="oil">
           <div className="oil1">
           <Link to="/search?category=OIL">
-              <img src="/images/products/oil-category.png" alt="oil-cat" className="oil-img" />
+              <img src="/Images/products/oil-category.png" alt="oil-cat" className="oil-img" />
             </Link>
           </div>
           <div className="oil-caption">Oil</div>
@@ -152,7 +152,7 @@ const Home = () => {
         <div className="herbal">
           <div className="herbal1">
           <Link to="/search?category=HERBAL">
-              <img src="/images/products/herbal-category.png" alt="herbal-cat" className="herbal-img" />
+              <img src="/Images/products/herbal-category.png" alt="herbal-cat" className="herbal-img" />
             </Link>
           </div>
           <div className="herbal-caption">Herbal & Organic</div>
@@ -160,7 +160,7 @@ const Home = () => {
         <div className="homeappliances">
           <div className="homeappliances1">
           <Link to="/search?category=HOMEAPPLIANCES">
-              <img src="/images/products/homeappliance-category.png" alt="home-cat" className="homeappliances-img" />
+              <img src="/Images/products/homeappliance-category.png" alt="home-cat" className="homeappliances-img" />
             </Link>
           </div>
           <div className="homeappliances-caption">Home Appliances</div>
@@ -176,12 +176,12 @@ const Home = () => {
       <br />
       <div className="advantages">
         <div className="home-made"> 
-          <img src="/images/products/home-img.png" alt="homeimage" className="home-img" />
+          <img src="/Images/products/home-img.png" alt="homeimage" className="home-img" />
           <h3 className="head-home">Home made</h3>
           <p className="para-home">Fresh, tasty treats made at home with simple ingredients</p>
         </div>
         <div className="organic">
-          <img src="/images/products/organic-img.png" alt="organic" className="organic-img" />
+          <img src="/Images/products/organic-img.png" alt="organic" className="organic-img" />
           <h3 className="head-organic">100% Organic</h3>
           <p className="para-organic">Prioritize purity and natural ingredients for healthier choices</p>
         </div>
